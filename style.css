@@ -75,8 +75,8 @@ body, html {
   
   /* Bubble Text */
   .bubble-text {
-    padding: 140px 0px 10px;  /* yaha top padding badha di */
-    font-size: 1.3em;
+    padding: 100px 0px 10px;  /* yaha top padding badha di */
+    font-size: 1.0em;
     color: black;
     text-align: center;
     width: 75%;
