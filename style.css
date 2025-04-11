@@ -75,7 +75,7 @@ body, html {
   
   /* Bubble Text */
   .bubble-text {
-    padding: 100px 0px 10px;  /* yaha top padding badha di */
+    padding: 108px 0px 10px;  /* yaha top padding badha di */
     font-size: 0.9em;
     color: black;
     text-align: center;
@@ -129,10 +129,10 @@ body, html {
   
   #finalWish {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     opacity: 0;
     transition: opacity 1s ease;
