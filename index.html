@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Space Birthday</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="background-blur"></div>
+
+  <!-- Floating Emojis -->
+  <div class="floating-emojis"></div>
+
+  <!-- Alien + Chat Bubble -->
+  <div class="alien-container">
+    <video src="animations/alien.webm" autoplay loop muted></video>
+    <div class="bubble-img">
+      <div id="dialogueText" class="bubble-text"></div>
+    </div>
+  </div>
+
+  <!-- Rocket -->
+  <div class="rocket-container">
+    <video src="animations/rocket.webm" autoplay muted loop></video>
+  </div>
+
+  <!-- Countdown Button -->
+  <button id="startButton">Start Countdown</button>
+
+  <!-- Countdown -->
+  <div id="countdown">5</div>
+
+  <!-- Final Wish -->
+  <div id="finalWish">🎉 Happy Birthday, 
+    Madam Jii..!! </div>
+
+  <!-- Next Button -->
+  <button id="nextButton">Next Surprise →</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
