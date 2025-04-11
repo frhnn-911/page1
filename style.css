@@ -65,7 +65,7 @@ body, html {
     width: 180px;
     height: 180px;
     position: absolute;
-    top: -225px;
+    top: -125px;
     left: 100px;
     z-index: 6;
     display: flex;
