@@ -62,8 +62,8 @@ body, html {
   .bubble-img {
     background: url('images/d.jpg') no-repeat center center;
     background-size: contain;
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     position: absolute;
     top: -225px;
     left: 100px;
