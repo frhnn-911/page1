@@ -41,7 +41,7 @@ function playDialogues() {
 
 // Move alien up to make room for message
 function shiftAlien() {
-  alien.style.bottom = "35%"; // New position after dialogues
+  alien.style.bottom = "42%"; // New position after dialogues
   setTimeout(() => {
     startButton.style.opacity = 1;
     rocket.style.transition = "bottom 1.5s ease";
