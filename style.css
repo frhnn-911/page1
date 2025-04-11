@@ -62,8 +62,8 @@ body, html {
   .bubble-img {
     background: url('images/d.jpg') no-repeat center center;
     background-size: contain;
-    width: 180px;
-    height: 180px;
+    width: 190px;
+    height: 190px;
     position: absolute;
     top: -125px;
     left: 100px;
@@ -76,7 +76,7 @@ body, html {
   /* Bubble Text */
   .bubble-text {
     padding: 100px 0px 10px;  /* yaha top padding badha di */
-    font-size: 1.0em;
+    font-size: 0.9em;
     color: black;
     text-align: center;
     width: 75%;
